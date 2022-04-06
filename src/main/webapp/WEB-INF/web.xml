@@ -11,6 +11,16 @@
         based on the recommendations of the Application Developer's Guide.
     </description>
 
+    <filter>
+        <filter-name>HelloFilter</filter-name>
+        <filter-class>ro.iteahome.java.advanced.filter.SecurityFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>HelloFilter</filter-name>
+        <url-pattern>/hello</url-pattern>
+    </filter-mapping>
+
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>ro.iteahome.java.advanced.servlet.HelloServlet</servlet-class>

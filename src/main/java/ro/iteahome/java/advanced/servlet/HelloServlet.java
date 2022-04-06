@@ -12,7 +12,7 @@ public final class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response)
             throws IOException, ServletException {
-
+        System.out.println("Servlet");
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
@@ -24,7 +24,7 @@ public final class HelloServlet extends HttpServlet {
         writer.println("<table border=\"0\" cellpadding=\"10\">");
         writer.println("<tr>");
         writer.println("<td>");
-        writer.println("<img src=\"images/Pivotal_Logo.png\">");
+        writer.println("<img src=\"images/helloworld.png\">");
         writer.println("</td>");
         writer.println("<td>");
         writer.println("<h1>Sample Application Servlet</h1>");
