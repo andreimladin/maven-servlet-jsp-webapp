@@ -20,7 +20,6 @@ public final class HelloServlet extends HttpServlet {
         writer.println("<title>Sample Application Servlet Page</title>");
         writer.println("</head>");
         writer.println("<body bgcolor=white>");
-
         writer.println("<table border=\"0\" cellpadding=\"10\">");
         writer.println("<tr>");
         writer.println("<td>");
